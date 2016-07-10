@@ -1,0 +1,91 @@
+<!-- CSHians Mobile Web Login Page -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0025)http://ara.kaist.ac.kr/m/ -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<html lang="ko" class=" modernizr-js modernizr-flexbox modernizr-flexboxlegacy modernizr-canvas modernizr-canvastext modernizr-webgl modernizr-no-touch modernizr-geolocation modernizr-postmessage modernizr-websqldatabase modernizr-indexeddb modernizr-hashchange modernizr-history modernizr-draganddrop modernizr-websockets modernizr-rgba modernizr-hsla modernizr-multiplebgs modernizr-backgroundsize modernizr-borderimage modernizr-borderradius modernizr-boxshadow modernizr-textshadow modernizr-opacity modernizr-cssanimations modernizr-csscolumns modernizr-cssgradients modernizr-cssreflections modernizr-csstransforms modernizr-csstransforms3d modernizr-csstransitions modernizr-fontface modernizr-generatedcontent modernizr-video modernizr-audio modernizr-localstorage modernizr-sessionstorage modernizr-webworkers modernizr-applicationcache modernizr-svg modernizr-inlinesvg modernizr-smil modernizr-svgclippaths">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="Generator" content="XpressEngine">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- TITLE -->
+    <title>Login - CSHians</title>
+    <meta name="description" content="창원과학고등학교 커뮤니티 서비스 CSHians">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./files/jquery-ui.min.css">
+    <link rel="stylesheet" href="./files/style.css">
+    <script type="text/javascript" src="./files/del-www.js"></script>
+    <script src="./files/jquery.min.js"></script>
+    <script src="./files/x.min.js"></script>
+    <script src="./files/xe.min.js"></script>
+    <script src="./files/default.login.js"></script>
+    <link rel="stylesheet" href="./files/login.css" type="text/css">
+    <link rel="stylesheet" href="./files/base.css" type="text/css">
+    <script type="text/javascript" src="./files/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="./files/mobile.js"></script>
+
+<script>
+//<![CDATA[
+var current_url = "http://cshians.net/?mid=login_help";
+var request_uri = "http://cshians.net/";
+var current_mid = "login_m";
+var waiting_message = "서버에 요청 중입니다. 잠시만 기다려주세요.";
+var ssl_actions = new Array();
+var default_url = "http://cshians.net/";
+xe.current_lang = "ko";
+xe.cmd_find = "찾기";
+xe.cmd_cancel = "취소";
+xe.cmd_confirm = "확인";
+xe.msg_no_root = "루트는 선택 할 수 없습니다.";
+xe.msg_no_shortcut = "바로가기는 선택할 수 없습니다.";
+xe.msg_select_menu = "대상 메뉴 선택";
+//]]>
+</script>
+    </head>
+    <body>
+        <div id="content">
+            <div class="bg">
+                <div class="box">
+                    <form id="signIn" action="http://cshians.net/index.php?act=procMemberLogin" method="post">
+                        <input type="hidden" name="error_return_url" value="/login_help">
+                        <input type="hidden" name="mid" value="login_help">
+                        <input type="hidden" name="vid" value="">
+                        <input type="hidden" name="ruleset" value="@login">
+                        <input type="hidden" name="act" value="procMemberLogin">
+                        <input type="hidden" name="success_return_url" value="/">
+                        <input type="hidden" name="xe_validator_id" value="widgets/login_info/skins/default/login_form/1">
+
+                        <ul class="ip"> 
+                            <li>
+                            <span class="login_id">
+                                <input type="text" id="id" class="signInInput" name="user_id" onfocus="clear_input(&#39;id&#39;);" onblur="set_input(&#39;id&#39;);">
+                            </span>
+                            </li>
+                            <li>
+                            <span class="login_pw">
+                                <input type="password" id="pw" class="signInInput" name="password" onfocus="clear_input(&#39;pw&#39;);" onblur="set_input(&#39;pw&#39;);">
+                            </span>
+                            </li>
+                        </ul> 
+                        <p class="lgbutton"> 
+                            <input type="submit" class="button" value="로그인"> 
+                        </p> 
+                    </form>
+                    <p class="sv"> 
+                        <input type="checkbox" id="saveID" name="sID" onclick="checkSmartLevel(this);"> 
+                        <label>아이디 저장</label> 
+                        <input type="checkbox" id="savePWD" name="sPWD" onclick="initPwd();checkSmartLevel(this);"> 
+                        <label class="sPW">비밀번호 저장</label> 
+                    </p>
+
+                    <div class="gotoWeb" style="float:left">
+                        <span style="display:inline;">
+                            <p style="color:white; font-size:120%">회원가입 및 아이디/비밀번호 찾기는<br>PC웹을 이용해주시기 바랍니다. <a href="http://cshians.net/login/default" style="color:yellow;">PC웹으로 가기</a><br><br></p>
+                        </span>
+                    </div>
+                </div> 
+            </div>
+        </div>
+</body></html>

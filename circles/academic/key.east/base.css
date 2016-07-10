@@ -1,0 +1,343 @@
+ @charset "utf-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 10px;
+	background: #242424;
+	color: white;
+	min-width:1140px;
+	font-size: 0.8em;
+}
+
+body, input, textarea, td, th {
+	font-family: Verdana, 맑은 고딕, 돋움, UnDotum, sans-serif;
+}
+
+input, textarea, td, th {
+	font-size: 1.0em;
+}
+
+h1 {
+	margin: 0;
+	font-size: 1em;
+}
+
+a {
+	color: #06f;
+}
+a:visited {
+	color: #69f;
+}
+a:hover {
+	color: #fa0;
+}
+
+#header {
+	position: relative;
+	background: url(../images/bg_menu.png) repeat-x left top;
+	height: 56px;
+	position: relative;
+}
+
+#header h1 {
+	background: url(../images/bg_logo.png) no-repeat left top;
+	height: 52px;
+	text-indent: -500em;
+}
+
+#header_link {
+	position: absolute;
+        height:20px;
+	right: 30px;
+	bottom: 0;
+}
+
+ul#main_header_link {
+	list-style: none;
+	margin: 0; padding: 0;
+}
+
+ul#main_header_link li {
+	float: left;
+        height:20px;
+	margin: 0; padding: 0;
+}
+
+ul#main_header_link a {
+	font-family: Verdana, Tahoma, Arial, sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	display: block;
+	-webkit-border-top-left-radius: 3px;
+	-webkit-border-top-right-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-topright: 3px;
+	background: #242424;
+	color: white;
+	line-height: 20px;
+	height: 20px;
+	padding: 0 12px;
+	margin: 0 3px;
+}
+
+ul#main_header_link a.selected {
+	background: white;
+	color: #690;
+}
+
+ul#main_header_link a:hover {
+	background: #eee;
+	color: #930;
+}
+
+/* Content Area */
+
+#content {
+	padding: 25px;
+	background: white;
+	color: black;
+}
+
+@media only and (max-device-width: 400px) {
+	.register {
+		width: 100%;
+	}
+}
+
+@media all and (min-device-width: 400px) {
+	.register {
+		width: 400px;
+	}
+}
+
+h2 {
+	font-family: Lucida Sans, 맑은 고딕, 돋움, sans-serif;
+	margin-bottom: 0.8em;
+}
+
+h3 { 
+    font-family: Lucida Sans, 맑은 고딕, 돋움, sans-serif;
+    margin: 0.6em -0.1em; 
+}
+
+h4 { margin: 0.5em -0.3em; }
+
+hr {
+	background: #ccc;
+	width: 100%;
+	height: 1px;
+	border: 0 none;
+	margin: 10px 0 10px 0;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 0.5em;
+}
+
+th, td {
+	border-bottom: 1px solid #ccc;
+	padding: 0.2em 0.5em 0.2em 0.5em;
+}
+
+table#address-list {
+	width: auto;
+}
+
+table.layout td, table.layout th {
+	border: 0px none;
+	padding: 0.5em;
+}
+
+table#address-list col.num { width: 4em; }
+table#address-list col.id { width: 7em; }
+table#address-list col.name { width: 6em; }
+table#address-list col.track { width: 53em; }
+table#address-list col.url { width: 14em; }
+table#address-list tbody tr:hover { background-color: #f2f2f2; }
+table#address-list td.num { text-align: center; }
+table#address-list td.id { text-align: center; }
+table#address-list td.name { text-align: center; }
+
+img {
+	margin: 0.6em;
+	border: none;
+}
+
+ul {
+	padding-left: 1.5em;
+}
+
+/* Additional Elements */
+.pagination {
+	text-align: center;
+	padding: 2em;
+	font-size: 1.5em;
+}
+
+.pagination a {
+	color: gray;
+	text-decoration: none;
+	padding: 3px 5px;
+	font-size: 0.86em;
+}
+
+.pagination a:hover {
+	color: white;
+	background: #333;
+}
+
+.pagination a.selected {
+	color: red;
+}
+
+.breadcrumb {
+	margin: 10px 0;
+	font-size: 9pt;
+}
+
+.breadcrumb a {
+	color: gray;
+	text-decoration: none;
+}
+
+.breadcrumb a:hover {
+	font-weight: bold;
+}
+
+#footer {
+	padding: 0;
+	font-size: 0.85em;
+	color: #666;
+	position: relative;
+	height: 30px;
+}
+
+#footer p {
+	margin: 0;
+}
+#footer a {
+	color: #999;
+	text-decoration: none;
+}
+#footer a:hover {
+	color: #ccc;
+	text-decoration: underline;
+}
+
+#copyright {
+	position: absolute;
+	top: 10px;
+	left: 5px;
+}
+
+/* Main CSS */
+#contact {
+	margin-left: 1.0em;
+}
+
+/* Seminar CSS */
+#seminarList {
+	max-width: 990px;
+}
+
+#seminarList li {
+	/*float: left;*/
+	/*width: 49%;*/
+	margin: 4px;
+	padding: 0 8px 0 0;
+}
+#seminarList .titleLink {
+	font-weight: bold;
+	font-size: 120%;
+}
+#seminarList .author {
+	font-weight: bold;
+}
+#seminarList .date {
+	font-weight: normal;
+	font-size: 80%;
+}
+#seminarDetails {
+	margin-left: 15px;
+}
+#seminarDetails h3 a {
+	text-decoration: none;
+	font-size: 0.6em;
+	vertical-align: top;
+}
+.attachmentList li {
+	float: none !important;
+	width: 100%;
+}
+
+.clear
+{
+	clear:both;
+}
+
+/* Photo CSS */
+ul#photo-sets {
+	list-style: none;
+}
+
+ul#photo-sets li {
+	width: 300px;
+	height: 300px;
+	padding: none;
+	margin: 10px;
+	float: left;
+	text-align: center;
+}
+
+ul#photo-sets li.folder a {
+	display: block;
+	background: #f2f2f2;
+	border: 1px solid #ddd;
+	width: 300px;
+	height: 290px;
+	font-size: 12pt;
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+	vertical-align: middle;
+	padding-top: 10px;
+}
+ul#photo-sets li.folder a:hover {
+	background: #e8e8e8;
+}
+
+ul#photo-sets li img {
+	margin: 0 auto;
+}
+.button{
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.button-primary{
+    color: #fff;
+    background-color: #428bca;
+    border-color: #357ebd;
+}

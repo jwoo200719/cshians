@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+
+/* 폰트 설정 */
+body, input, textarea, select, button, table, div, ul, li, p, form { 
+    font-family:"Malgun gothic", "맑은 고딕",Dotum,gulim,Helvetica,Arial,sans-serif;
+    margin:0;
+    padding:0;
+    font-size: 13px;
+    letter-spacing: -1px;
+    -webkit-text-size-adjust:none;
+}
+a {
+    color: #000000;
+    text-decoration:none;
+}
+
+/* common */
+body {
+    position:relative;
+    float: none;
+    width: auto;
+    display: block;
+}
+section, header, footer, article{ display: block;}
+section{ position: relative; }
+ul, ol{ list-style: none }
+img { border:0; }
+a img { border:0; }
+.re_number{
+    font-weight: normal;
+    padding-left: 6px;
+    color: #ff0060;
+}
+.block{ display: block; }
+
+/* iPhone 서식 제거 */
+select{
+    -webkit-appearance: menulist;
+    box-sizing: border-box;
+    border: 1px solid;
+    -webkit-rtl-ordering: logical;
+    cursor: default;
+    -webkit-border-radius: 0;
+}
+input, textarea {
+    -webkit-border-radius: 0;
+}
+
+/* 여백제거, 폰트 */
+p{ 
+    margin:0; margin-bottom:1em; 
+}
+h1,h2,h3,h4,h5,h6,form,div,fieldset,input,textarea { 
+    margin:0;padding:0; 
+}
+input { 
+    font-family:Dotum,돋움,Helvetica,Arial,sans-serif; 
+}

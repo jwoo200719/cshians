@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon version="0.2">
+    <title xml:lang="ko">www를 자동으로 지워 주는 애드온</title>
+    <title xml:lang="en">Del www Addon</title>
+    <description xml:lang="ko">
+        www가 붙어있는 url에 자동으로 www를 지워줍니다.
+        이 애드온을 사용하면 로그인 풀림을 방지할 수 있습니다.
+        팬텀님의 자동으로 지우는(autowww) 에드온을 참고하여 작업하였습니다.
+    </description>
+    <description xml:lang="en">
+        If the url is not www.url, Auto url change www.url
+        This Addon safe from auto logout
+    </description>
+    <version>1.0</version>
+    <date>2011-02-18</date>
+
+    <author email_address="yujung76@gmail.com" link="http://www.8915.co.kr/">
+        <name xml:lang="ko">수정 : 연금술사{원제작자:팬텀(팬텀MW)}</name>
+    </author>
+</addon>

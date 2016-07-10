@@ -1,0 +1,175 @@
+<!-- CSHians PC Web Login Page -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0024)http://ara.kaist.ac.kr/# -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ko" xml:lang="ko">
+<html lang="ko" class=" modernizr-js modernizr-flexbox modernizr-flexboxlegacy modernizr-canvas modernizr-canvastext modernizr-webgl modernizr-no-touch modernizr-geolocation modernizr-postmessage modernizr-websqldatabase modernizr-indexeddb modernizr-hashchange modernizr-history modernizr-draganddrop modernizr-websockets modernizr-rgba modernizr-hsla modernizr-multiplebgs modernizr-backgroundsize modernizr-borderimage modernizr-borderradius modernizr-boxshadow modernizr-textshadow modernizr-opacity modernizr-cssanimations modernizr-csscolumns modernizr-cssgradients modernizr-cssreflections modernizr-csstransforms modernizr-csstransforms3d modernizr-csstransitions modernizr-fontface modernizr-generatedcontent modernizr-video modernizr-audio modernizr-localstorage modernizr-sessionstorage modernizr-webworkers modernizr-applicationcache modernizr-svg modernizr-inlinesvg modernizr-smil modernizr-svgclippaths">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="Generator" content="XpressEngine">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- TITLE -->
+    <title>Login - CSHians</title>
+
+    <!-- CSS -->
+<!--
+<link rel="stylesheet" href="./Login - CSHians_files/xe.min.css">
+<link rel="stylesheet" href="./Login - CSHians_files/jquery-ui.min.css">
+<link rel="stylesheet" href="./Login - CSHians_files/style.css">
+<link rel="stylesheet" href="./Login - CSHians_files/default.login.css">
+-->
+<link rel="stylesheet" href="./../Login - CSHians_files/xe.css">
+<link rel="stylesheet" href="./../Login - CSHians_files/default.css">
+<link rel="stylesheet" href="./../Login - CSHians_files/jquery.oembed.css">
+<link rel="stylesheet" href="./../Login - CSHians_files/jquery-ui.min.css">
+<link rel="stylesheet" href="./../Login - CSHians_files/xeicon.min.css">
+<link rel="stylesheet" href="./../Login - CSHians_files/style.css">
+<link rel="stylesheet" href="./../Login - CSHians_files/jquery.autocomplete.css">
+
+<meta name="description" content="창원과학고등학교 커뮤니티 서비스 CSHians">
+<link rel="stylesheet" href="./../2016test01/layout.css" type="text/css" media="screen">
+<link rel="stylesheet" href="./../아라 - 로그인_files/stealBlue.css" type="text/css" media="screen">
+<link rel="shortcut icon" href="http://cshians.net/favicon.ico" type="image/x-icon">
+<!--<link rel="stylesheet" href="/media/style_new/print.css" type="text/css" media="print" />-->
+<script type="text/javascript" src="./../아라 - 로그인_files/jquery-latest.min.js"></script>
+<script type="text/javascript" src="./../아라 - 로그인_files/layout.js"></script>
+<script type="text/javascript" src="./../Login - CSHians_files/del-www.js"></script>
+<!--[if (gte IE 5.5)&(lte IE 8)]>
+    <script type="text/javascript" src="/media/js/ie-css3.js"></script>
+<![endif]-->
+
+<!-- JS -->
+<!--[if lt IE 9]><script src="/common/js/jquery-1.x.min.js?20160130195800"></script>
+<![endif]--><!--[if gte IE 9]><!--><script src="./../Login - CSHians_files/jquery.min.js"></script>
+<!--<![endif]--><script src="./../Login - CSHians_files/x.min.js"></script>
+<script src="./../Login - CSHians_files/xe.min.js"></script>
+<script src="./../Login - CSHians_files/default.login.js"></script>
+<!-- RSS -->
+<!-- ICON -->
+
+<script>
+//<![CDATA[
+var current_url = "http://cshians.net/?mid=login_help";
+var request_uri = "http://cshians.net/";
+var current_mid = "login_help";
+var waiting_message = "서버에 요청 중입니다. 잠시만 기다려주세요.";
+var ssl_actions = new Array();
+var default_url = "http://cshians.net/";
+xe.current_lang = "ko";
+xe.cmd_find = "찾기";
+xe.cmd_cancel = "취소";
+xe.cmd_confirm = "확인";
+xe.msg_no_root = "루트는 선택 할 수 없습니다.";
+xe.msg_no_shortcut = "바로가기는 선택할 수 없습니다.";
+xe.msg_select_menu = "대상 메뉴 선택";
+//]]>
+</script>
+
+</head>
+    
+    <body id="noMenu" onload="setWidth();" onresize="setWidth();">
+        <div id="topLinksDiv">
+            <ul id="topLinks" style="width: 1037px;">
+                <li class="kaist"><a href="http://www.csh.hs.kr/" title="창원과학고등학교"><strong>창원과학고등학교</strong></a></li>
+                <li><a href="http://cshians.net/" title="CSHians">CSHians</a></li>
+                <li><a href="http://cshians.net/tools/search" title="CSearch">CSearch</a></li>
+                <li><a href="http://cshians.net/circles/" title="동아리">동아리</a></li>
+                <li><a href="http://cshians.net/union/" title="학생회">학생회</a></li>
+                <li><a href="http://cshians.net/tools/mailer/" title="웹메일서비스">웹메일서비스</a></li>
+                <li><a href="http://cshians.net/tools/exam/" title="평가정보">평가정보</a></li>
+                <li><a href="http://cshians.net/tools/2016.4월 식단표.pdf" title="식단표">2016년 4월 식단표</a></li>
+                <li><a href="http://cshians.net/login/2016test01/#" id="moreLinks">more...</a></li>
+            </ul>
+        </div>
+
+        <div id="signInModal">
+            <div class="modalMargin"></div>
+            <div class="modalWindow">
+                <div class="aboutAra">
+                    <h1><img src="./../아라 - 로그인_files/i_signin_bi.png" alt="CSHians"></h1>
+                    <p class="desc">
+                        CSHians는 창원과학고등학교 커뮤니티 서비스입니다.<br>
+                        CSHians의 모든 정보를 이용하시려면<br>
+                        이 페이지에서 본인의 계정으로 로그인해야 합니다.<br>
+                        아직 본인의 계정이 없으신 경우,<br>
+                        회원가입 및 CSHS 구성원 인증 절차를 거쳐<br>
+                        CSHians의 모든 서비스를 이용하실 수 있습니다.<br>
+                        CSHS 구성원이 아닌 분의 접속은 제한됩니다.
+                    </p>
+                </div>
+                <div class="signInInput">
+                    <h2><img src="./../아라 - 로그인_files/i_signin_title.png" alt="로그인 sign in"></h2>
+                    <form id="signIn" action="http://cshians.net/index.php?act=procMemberLogin" method="post">
+                        <input type="hidden" name="error_return_url" value="/login_help">
+                        <input type="hidden" name="mid" value="login_help">
+                        <input type="hidden" name="vid" value="">
+                        <input type="hidden" name="ruleset" value="@login">
+                        <input type="hidden" name="act" value="procMemberLogin">
+                        <input type="hidden" name="success_return_url" value="/">
+                        <input type="hidden" name="xe_validator_id" value="widgets/login_info/skins/default/login_form/1">
+
+                        <div class="idPw">
+                                <p class="id"><label for="araId">ID</label><input name="user_id" class="signInInput" id="araId" type="text" required="Y" tabindex="1"></p>
+                                <p class="pw"><label for="araId">Password</label><input name="password" class="signInInput" id="araPw" type="password" required="Y" tabindex="2"></p>
+
+                                <p class="keep">
+                                    <input type="checkbox" name="keep_signed" id="keep_signed" value="Y">
+                                    <label for="keep_signed">로그인 유지</label>
+                                </p>
+
+                            <p class="etc">
+                                <a href="http://cshians.net/index.php?mid=register&amp;act=dispMemberSignUpForm" tabindex="4">회원가입</a> /
+                                <a href="http://cshians.net/index.php?mid=bbs_open" tabindex="6">게스트로 입장</a><br>
+                                <a href="http://cshians.net/index.php?mid=findidpw&amp;act=dispMemberFindAccount" tabindex="5">아이디/비밀번호 찾기</a> /
+                                <a href="http://cshians.net/login_m" tabindex="6">모바일웹</a>
+                            </p>
+                        </div>
+                        <div class="submitButton">
+                            <input type="submit" tabindex="3" value="Sign in">
+                        </div>
+                    </form>
+                </div>            
+                <div id="welcome2016">
+                    <div class="register" style="text-align:center; color:#275D0C; vertical-align:middle;">
+                        <p style="text-align:center; font-size:15px; font-family:Dotum,돋움,Helvetica,Arial,sans-serif;"><!-- 공백을 어떻게 넣는지 까먹어서 그냥 문단 하나 만듦. <br>로는 안먹더군요. -->&nbsp;</p>
+                        <p style="font-size:20px; font-family:Dotum,돋움,Helvetica,Arial,sans-serif; margin-top:-55px;"><br><strong>CSHians는 여러분의 열정을 응원합니다!</strong></p>
+                        <p style="text-align:center; font-size:15px; font-family:Dotum,돋움,Helvetica,Arial,sans-serif; margin-top:-20px;">1학기 1차 지필평가 잘 보시고 즐거운 학교 생활 하시기를 바랍니다.</p>
+                        <!-- 아 드디어 다했다 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="linksModalBG" style="opacity: 0.75; height: 540px; display: none;"></div>
+        <div id="linksModal" style="display: none;">
+            <div class="modalMargin"></div>
+            <div class="modalWindow">
+                <p class="modalTitle">창원과학고등학교 주요 사이트</p>
+                <p class="quitModal"><a href="http://cshians.net/login/2016test01/#"><img src="./../아라 - 로그인_files/i_quitModal.png" alt="(quit modal)"></a></p>
+                <div class="modalContents">
+                    <ul>
+                        <li class="kaist"><a href="http://www.csh.hs.kr/" title="창원과학고등학교 홈페이지">창원과학고등학교 홈페이지</a></li>
+                        <li><a href="http://cshians.net/" title="커뮤니티 서비스 CSHians">커뮤니티 서비스 CSHians</a></li>
+                        <li><a href="http://cshians.net/tools/search" title="통합검색 서비스 CSearch">통합검색 서비스 CSearch</a></li>
+                        <li><a href="http://www.neis.go.kr/" title="NEIS">교육행정정보시스템 NEIS 대국민서비스</a></li>
+                        <li><a href="http://cshians.net/tools/mailer/" title="웹메일서비스">도구 > 웹메일서비스</a></li>
+                        <li><a href="http://cshians.net/tools/exam/" title="평가정보">도구 > 평가정보</a></li>
+                        <li><a href="http://cshians.net/tools/tester/" title="실험실">도구 > 실험실</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="http://cshians.net/circles/" title="동아리">동아리</a></li>
+                        <li><a href="http://cshians.net/circles/academic/" title="학술동아리">동아리 > 학술동아리</a></li>
+                        <li><a href="http://cshians.net/circles/academic/key.east" title="전산동아리">동아리 > 학술동아리 > 전산동아리 Key.East</a></li>
+                        <li><a href="http://cshians.net/circles/registered/" title="자율동아리">동아리 > 자율동아리</a></li>
+                        <li><a href="http://cshians.net/union/" title="학생회">제 6대 전교학생회</a></li>
+                        <li><a href="http://cshians.net/tools/2016.4월 식단표.pdf" title="식단표">2016년 4월 식단표 보기 (PDF)</a></li>
+                        <li><a href="http://cshians.net/tools/2016.4월 식단표.xlsx" title="식단표">2016년 4월 식단표 다운로드 (Excel)</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+
+</body></html>

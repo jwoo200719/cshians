@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon version="0.2">
+  <title xml:lang="ko">로그인 필수 애드온</title>
+  <description xml:lang="ko">
+    로그인 안 하면 무조건 로그인페이지로 페이지 고정
+  </description>
+  <version>0.2</version>
+  <date>2013-05-21</date>
+  <author email_address="sejin7940@nate.com" link="http://www.sejin7940.co.kr">
+    <name xml:lang="ko">sejin7940</name>
+  </author>
+  <extra_vars>
+    <var name="login_mid" type="text">
+      <title xml:lang="ko">첫화면 로그인 페이지의 mid</title>
+      <description xml:lang="ko">로그인 안 한 상태에서는 무조건 이 mid 로 고정이 됨</description>
+    </var>
+    <var name="start_mid" type="text">
+      <title xml:lang="ko">시작 모듈 mid</title>
+      <description xml:lang="ko">Setting 에 기재한 시작모듈의 mid값 기재. (시작모듈은 로그인 한 후 실제적인 첫 페이지 mid로 지정)</description>
+    </var>
+    <var name="deny_user_id" type="text">
+      <title xml:lang="ko">접근 금지시킬 유저ID</title>
+      <description xml:lang="ko">복수개시 콤마(,)로 구별</description>
+    </var>
+    <var name="deny_group" type="text">
+      <title xml:lang="ko">접근 금지시킬 그룹번호 (group_srl)</title>
+      <description xml:lang="ko">복수개시 콤마(,)로 구별 (그룹번호는 DB에서 또는 그룹설정에서 해당그룹의 삭제에 마우스오버하면 주소창에서 확인가능) </description>
+    </var>
+  </extra_vars>
+</addon>
