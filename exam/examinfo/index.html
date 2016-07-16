@@ -31,11 +31,9 @@ function calc1()
 	d6=eval(document.frm1.input6.value);
 	d7=eval(document.frm1.input7.value);
 	d8=eval(document.frm1.input8.value);
-	d9=eval(document.frm1.input9.value);
-	d10=eval(document.frm1.input10.value);
 
-	data1=gob(3, d1)+gob(4, d2)+gob(4, d3)+gob(3, d4)+gob(3, d5)+gob(3, d6)+gob(3, d7)+gob(3, d8)+gob(3, d9)+gob(2, d10)
-	document.frm1.result1.value=(data1/31);
+	data1=gob(7, d1)+gob(4, d2)+gob(4, d3)+gob(3, d4)+gob(3, d5)+gob(3, d6)+gob(3, d7)+gob(2, d8)
+	document.frm1.result1.value=(data1/29);
 }
 function calc2()
 {
@@ -132,22 +130,16 @@ function calc3()
 											<td align=left>
 												<form name="frm1">
 												1학년<br><br>
-												<!--
-												석차등급을 입력하세요<br>
-												미적분2 <input type="text" size=10 name="input1">
-												기하와벡터 <input type="text" size=10 name="input2">
-												심화물리 <input type="text" size=10 name="input3">
-												심화화학 <input type="text" size=10 name="input4">
-												심화생명과학 <input type="text" size=10 name="input5">
-												고급지구과학 <input type="text" size=10 name="input6">
-												영어2 <input type="text" size=10 name="input7">
-												문학 <input type="text" size=10 name="input8">
-												한국사 <input type="text" size=10 name="input9">
-												과제연구 <input type="text" size=10 name="input10"><br>
+												수학2 <input type="text" size=10 name="input1">
+												물리2 <input type="text" size=10 name="input2">
+												화학2 <input type="text" size=10 name="input3">
+												생명과학2 <input type="text" size=10 name="input4">
+												심화지구과학 <input type="text" size=10 name="input5">
+												국어1 <input type="text" size=10 name="input6">
+												영어1 <input type="text" size=10 name="input7">
+												정보 <input type="text" size=10 name="input8"><br>
 												<input type="button" name="btn1" value="평균등급 계산" onclick=calc1()><br><br>
 												<input type="text" size=10 name="result1">
-												-->
-												준비중입니다
 												</form>
 											</td>
 											<td align=left>

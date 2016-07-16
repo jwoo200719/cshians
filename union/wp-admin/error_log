@@ -1,4 +1,0 @@
-[23-Apr-2016 23:05:06 UTC] PHP Warning:  mysql_connect(): Access denied for user 'cshians'@'localhost' (using password: YES) in /home/cshians/public_html/department/wp-includes/wp-db.php on line 1515
-[23-Apr-2016 23:05:13 UTC] PHP Warning:  mysql_connect(): Access denied for user 'cshians'@'localhost' (using password: YES) in /home/cshians/public_html/department/wp-includes/wp-db.php on line 1515
-[23-Apr-2016 23:05:22 UTC] PHP Warning:  mysql_connect(): Access denied for user 'cshians'@'localhost' (using password: YES) in /home/cshians/public_html/department/wp-includes/wp-db.php on line 1515
-[05-Jul-2016 23:28:46 UTC] PHP Warning:  예상치 못한 에러가 발생했습니다. WordPress.org나 서버 설정에 오류가 있습니다. 문제가 지속되면 <a href="https://wordpress.org/support/">지원 포럼</a>에 문의하세요. (워드프레스가 WordPress.org에 안전한 연결을 설정할 수 없습니다. 서버 관리자와 연락하세요.) in /home/cshians/public_html/union/wp-admin/includes/plugin-install.php on line 158
