@@ -1,0 +1,3 @@
+<?php
+if(!defined('__XE__')) { exit(); }
+return 'O:8:\"stdClass\":5:{s:15:\"syndication_use\";s:1:\"Y\";s:8:\"site_url\";s:11:\"cshians.net\";s:4:\"year\";s:4:\"2016\";s:17:\"syndication_token\";s:92:\"AAAAOCxfHGJAVTsHgnu6bChu0kKhVXAW4SfueTdeI0BUjV6KlbcVEkXdTEWwx3HQjcpXLElL5jWnRdq20yfdOlK3nDY=\";s:20:\"syndication_password\";s:13:\"56c90e74dbccb\";}';
