@@ -1,0 +1,81 @@
+﻿<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+    <title>tordlstlr</title>
+    <style>
+        h1{
+            color:green;
+        }
+        h5{
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <span><h1>색인식 설문조사</h1></span>
+    <div style="BORDER-RIGHT: #9fd331 1px dashed; PADDING-RIGHT: 10px; BORDER-TOP: #9fd331 1px
+dashed; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; BORDER-LEFT: #9fd331 1px dashed; PADDING-
+TOP: 10px; BORDER-BOTTOM: #9fd331 1px dashed; BACKGROUND-COLOR: #e7fdb5">
+
+        <h3>통계를 위한 기초조사</h3>
+
+
+        <div id="sexDiv" class="join_row join_sex">
+            <span class="row_title blind"></span>
+            <span class="sex">
+                <span class="jender">
+                    <input type="radio" id="man" name="sex" value="0" onclick="checkSex()"><label id="manLb" for="man">남자 </label>
+                </span><span class="jender"><input type="radio" id="woman" name="sex" value="1" onclick="checkSex()"><label id="womanLb" for="woman">여자 </label></span>
+            </span>
+            <span id="sexMsg" class="error" style="display:none">필수 정보입니다.</span>
+            <!--네이버에서 copy-->
+        </div>
+        <br />
+        <select>
+            <option>지역</option>
+            <option>서울특별시</option>
+            <option>광주광역시</option>
+            <option>울산광역시</option>
+            <option>부산광역시</option>
+            <option>대구광역시</option>
+            <option>인천광역시</option>
+            <option>대전광역시</option>
+            <option>경기도</option>
+            <option>강원도</option>
+            <option>충청북도</option>
+            <option>충청남도</option>
+            <option>전라북도</option>
+            <option>전라남도</option>
+            <option>경상북도</option>
+            <option>경상남도</option>
+            <option>제주특별자치도</option>
+        </select>
+        <!--지역 선택창-->
+        <br />
+        <br />
+        <select>
+            <option>나이</option>
+            <option>영유아</option>
+            <option>10대</option>
+            <option>20대</option>
+            <option>30대</option>
+            <option>40대</option>
+            <option>50대</option>
+            <option>60대</option>
+            <option>70대</option>
+            <option>80대</option>
+            <option>90대</option>
+
+        </select>
+        <!--나이 선택창-->
+        <br />
+        <br />
+        <button>확인</button>
+        <h5>위 정보는 통계용이며 개인이 보관하지 않습니다</h5>
+    </div>
+
+
+</body>
+</html>
