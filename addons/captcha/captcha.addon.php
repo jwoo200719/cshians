@@ -8,7 +8,7 @@ if(!defined("__XE__")) exit();
  * @author NAVER (developers@xpressengine.com)
  * @brief Captcha for a particular action
  * English alphabets and voice verification added
- * */
+ * */gsdgdsgd
 if(!class_exists('AddonCaptcha', false))
 {
 	// On the mobile mode, XE Core does not load jquery and xe.js as normal.
