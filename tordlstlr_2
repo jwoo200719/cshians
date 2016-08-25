@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="www.naver.com">
+이름:<br>
+<input type="text" name="이름">
+<br>
+나이(만):<br>
+<input type="text" name="나이">
+<br>
+시력(교정시력):<br>
+<input type="text" name="시력">
+<br>
+색맹 및 색약:<br>
+<input type="text" name="색맹 및 색약">
+<br><br>
+<input type="submit">
+</form>
+
+<p>창원과학고등학교 색인식테스트에 오신것을 환영합니다.<p>
+
+</body>
+</html>
